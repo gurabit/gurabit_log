@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Hugoでよく使うコマンド - gurabit_log</title>
+<meta name="description" content="This is gurabit&#39;s log">
+<meta name="generator" content="Hugo 0.83.1" />
+<link href="https://gurabitlog.netlify.app/index.xml" rel="alternate" type="application/rss+xml">
+<link rel="canonical" href="https://gurabitlog.netlify.app/hugo/hugo%E3%81%A7%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/">
+<link rel="stylesheet" href="https://gurabitlog.netlify.app/css/theme.min.css">
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" href="https://gurabitlog.netlify.app/css/chroma.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+<script src="https://gurabitlog.netlify.app/js/bundle.js"></script><style>
+:root {}
+</style>
+<meta property="og:title" content="Hugoでよく使うコマンド" />
+<meta property="og:description" content="新しいサイトを作る hugo new site サイトの名前 Huhoのローカルサーバー立ち上げ hugo server -w -D -wはレンダリング -Dは下書きも表示 サーバーを停止 Ctrl&#43;C 新しい記事" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://gurabitlog.netlify.app/hugo/hugo%E3%81%A7%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/" /><meta property="og:image" content="https://gurabitlog.netlify.app/images/og-image.png"/><meta property="article:section" content="Hugo" />
+<meta property="article:published_time" content="2021-06-13T02:30:11&#43;09:00" />
+<meta property="article:modified_time" content="2021-06-13T02:30:11&#43;09:00" /><meta property="og:site_name" content="gurabit_log" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://gurabitlog.netlify.app/images/og-image.png"/>
+
+<meta name="twitter:title" content="Hugoでよく使うコマンド"/>
+<meta name="twitter:description" content="新しいサイトを作る hugo new site サイトの名前 Huhoのローカルサーバー立ち上げ hugo server -w -D -wはレンダリング -Dは下書きも表示 サーバーを停止 Ctrl&#43;C 新しい記事"/>
+<meta itemprop="name" content="Hugoでよく使うコマンド">
+<meta itemprop="description" content="新しいサイトを作る hugo new site サイトの名前 Huhoのローカルサーバー立ち上げ hugo server -w -D -wはレンダリング -Dは下書きも表示 サーバーを停止 Ctrl&#43;C 新しい記事"><meta itemprop="datePublished" content="2021-06-13T02:30:11&#43;09:00" />
+<meta itemprop="dateModified" content="2021-06-13T02:30:11&#43;09:00" />
+<meta itemprop="wordCount" content="209"><meta itemprop="image" content="https://gurabitlog.netlify.app/images/og-image.png"/>
+<meta itemprop="keywords" content="" /></head>
+<body><div class="container"><header>
+<h1>gurabit_log</h1>
+<p class="description">This is gurabit&#39;s log</p>
+
+</header>
+<div class="global-menu">
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="https://twitter.com/gura_bit">Twitter</a></li></ul>
+</nav>
+</div>
+<div class="content-container">
+<main><h1>Hugoでよく使うコマンド</h1>
+<h2 id="新しいサイトを作る">新しいサイトを作る</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new site サイトの名前
+</code></pre></div><h2 id="huhoのローカルサーバー立ち上げ">Huhoのローカルサーバー立ち上げ</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo server -w -D
+</code></pre></div><p>-wはレンダリング　-Dは下書きも表示</p>
+<h2 id="サーバーを停止">サーバーを停止</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">Ctrl+C
+</code></pre></div><h2 id="新しい記事を作る">新しい記事を作る</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new content/記事のジャンル名/記事の名前.md
+</code></pre></div><p>公開したい記事のdraftをfalseに書き換える</p>
+<h2 id="publicフォルダを作る">publicフォルダを作る</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo
+</code></pre></div><p>Hugoコマンドを入力するとpublicフォルダが作られる</p>
+<h2 id="hugoのバージョンを確認する">Hugoのバージョンを確認する</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo version
+</code></pre></div><p>現在のHugoのバージョンの値が返ってくる</p>
+<p>参考</p>
+<blockquote>
+<p><a href="https://maku77.github.io/hugo/">https://maku77.github.io/hugo/</a></p>
+</blockquote>
+<div class="edit-meta">
+Last updated on 13 Jun 2021
+
+
+<br>
+Published on 13 Jun 2021
+<br><a href="https://github.com/gurabit/gurabit_log/edit/master/content/Hugo%5cHugo%e3%81%a7%e3%82%88%e3%81%8f%e4%bd%bf%e3%81%86%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://gurabitlog.netlify.app/hugo/" title="Hugo"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - Hugo</a>
+<a class="nav nav-next" href="https://gurabitlog.netlify.app/photoshop/" title="Photoshop">Next - Photoshop <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+</nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
+</footer>
+</main>
+<div class="sidebar">
+
+<nav class="open-menu">
+<ul>
+<li class=""><a href="https://gurabitlog.netlify.app">Home</a></li>
+
+<li class=""><a href="https://gurabitlog.netlify.app/3dcg/">3DCG</a>
+  
+</li>
+
+<li class=""><a href="https://gurabitlog.netlify.app/adobe-after/">Adobe After</a>
+  
+</li>
+
+<li class=""><a href="https://gurabitlog.netlify.app/blender/">Blender</a>
+  
+</li>
+
+<li class=""><a href="https://gurabitlog.netlify.app/github/">Github</a>
+  
+</li>
+
+<li class=""><a href="https://gurabitlog.netlify.app/houdini/">Houdini</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://gurabitlog.netlify.app/houdini/sop/">SOP</a></li>
+</ul>
+  
+</li>
+
+<li class="parent"><a href="https://gurabitlog.netlify.app/hugo/">Hugo</a>
+  
+<ul class="sub-menu">
+<li class="active"><a href="https://gurabitlog.netlify.app/hugo/hugo%E3%81%A7%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/">Hugoでよく使うコマンド</a></li>
+</ul>
+  
+</li>
+
+<li class=""><a href="https://gurabitlog.netlify.app/photoshop/">Photoshop</a>
+  
+</li>
+
+<li class=""><a href="https://gurabitlog.netlify.app/redshift/">Redshift</a>
+  
+</li>
+</ul>
+</nav>
+
+
+
+<div class="sidebar-footer"></div>
+</div>
+
+</div><a href="#" id="backtothetop-fixed" class="backtothetop"
+ data-backtothetop-duration="600"
+ data-backtothetop-easing="easeOutQuart"
+ data-backtothetop-fixed-fadeIn="1000"
+ data-backtothetop-fixed-fadeOut="1000"
+ data-backtothetop-fixed-bottom="10"
+ data-backtothetop-fixed-right="20">
+<span class="fa-layers fa-fw">
+<i class="fas fa-circle"></i>
+<i class="fas fa-arrow-circle-up"></i>
+</span></a>
+</div>
+</body>
+</html>

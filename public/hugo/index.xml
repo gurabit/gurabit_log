@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gurabit_log</title>
-    <link>https://gurabitlog.netlify.app/</link>
-    <description>Recent content on gurabit_log</description>
+    <title>Hugo on gurabit_log</title>
+    <link>https://gurabitlog.netlify.app/hugo/</link>
+    <description>Recent content in Hugo on gurabit_log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sun, 13 Jun 2021 02:30:11 +0900</lastBuildDate><atom:link href="https://gurabitlog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://gurabitlog.netlify.app/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugoでよく使うコマンド</title>
       <link>https://gurabitlog.netlify.app/hugo/hugo%E3%81%A7%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://gurabitlog.netlify.app/hugo/hugo%E3%81%A7%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/</guid>
       <description>新しいサイトを作る hugo new site サイトの名前 Huhoのローカルサーバー立ち上げ hugo server -w -D -wはレンダリング -Dは下書きも表示 サーバーを停止 Ctrl+C 新しい記事</description>
-    </item>
-    
-    <item>
-      <title>SOP</title>
-      <link>https://gurabitlog.netlify.app/houdini/sop/</link>
-      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://gurabitlog.netlify.app/houdini/sop/</guid>
-      <description>Houdini&amp;gt;SOP</description>
     </item>
     
   </channel>
