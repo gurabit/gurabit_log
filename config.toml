@@ -1,4 +1,4 @@
-baseURL = "https://gurabitlog.netlify.app/"
+baseURL = "github.com/gurabit/gurabit_log"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
