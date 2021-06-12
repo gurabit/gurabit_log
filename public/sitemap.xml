@@ -3,8 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gurabitlog.netlify.app/</loc>
-    <lastmod>2021-06-13T02:30:11+09:00</lastmod>
+    <lastmod>2021-06-13T03:46:01+09:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://gurabitlog.netlify.app/github/gitgub%E3%81%A7%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/</loc>
+    <lastmod>2021-06-13T03:46:01+09:00</lastmod>
   </url><url>
     <loc>https://gurabitlog.netlify.app/hugo/hugo%E3%81%A7%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/</loc>
     <lastmod>2021-06-13T02:30:11+09:00</lastmod>
