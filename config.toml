@@ -1,4 +1,4 @@
-baseURL = "https://gurabitlog.netlify.app/"
+baseURL = "https://gurabitlog.netlify.app"
 
 languageCode = "jp"
 DefaultContentLanguage = "jp"
@@ -21,7 +21,7 @@ enableMissingTranslationPlaceholders = false
 
     # Documentation repository section
     # documentation repository (set edit link to documentation repository)
-    github_doc_repository = "https://github.com/thingsym/hugo-theme-techdoc"
+    github_doc_repository = "https://github.com/gurabit/gurabit_log"
 
     # Analytic section
     google_analytics_id = "" # Your Google Analytics tracking id
@@ -62,7 +62,7 @@ enableMissingTranslationPlaceholders = false
     # Algolia site search section
     # See https://www.algolia.com/doc/
     algolia_search_enable = true
-    algolia_indexName = "hugo-demo-techdoc"
+    algolia_indexName = "public_html"
     algolia_appId = "7W4SAN4PLK"
     algolia_apiKey = "cbf12a63ff72d9c5dc0c10c195cf9128" # Search-Only API Key
 
@@ -76,7 +76,7 @@ enableMissingTranslationPlaceholders = false
 
     [[menu.main]]
         name = "Twitter"
-        url = "https://twitter.com/thingsym"
+        url = "https://twitter.com/gura_bit"
         weight = 2
 
 # Markup configure section

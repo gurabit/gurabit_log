@@ -1,7 +1,7 @@
 ---
-title: "Houdini"
+title: "3DCG"
 date: 2020-11-29
 draft: false # 非公開ならtrueにする
 ---
 
-Houdini
+3DCG
