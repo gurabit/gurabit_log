@@ -5,6 +5,6 @@
     <link>https://example.com/</link>
     <description>Recent content on Hugo Techdoc Theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href=""https://gurabitlog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
