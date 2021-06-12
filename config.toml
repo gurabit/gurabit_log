@@ -1,4 +1,4 @@
-baseURL = "github.com/gurabit/gurabit_log"
+baseURL = "https://github.com/gurabit/gurabit_log.git"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
