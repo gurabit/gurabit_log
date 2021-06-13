@@ -301,7 +301,7 @@ git archive --format=zip HEAD -o ./hoge.zip
 
 現在のリポジトリのzipファイルを作る
 
-#### 参考
+## 参考
 
 [【Git】基本コマンド - Qiita](https://qiita.com/konweb/items/621722f67fdd8f86a017)
 

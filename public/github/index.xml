@@ -17,12 +17,12 @@
     </item>
     
     <item>
-      <title>gitの用語集</title>
-      <link>https://gurabitlog.netlify.app/github/git%E3%81%AE%E7%94%A8%E8%AA%9E%E9%9B%86/</link>
+      <title>Githubの用語集</title>
+      <link>https://gurabitlog.netlify.app/github/github%E3%81%AE%E7%94%A8%E8%AA%9E%E9%9B%86/</link>
       <pubDate>Sun, 13 Jun 2021 13:34:24 +0900</pubDate>
       
-      <guid>https://gurabitlog.netlify.app/github/git%E3%81%AE%E7%94%A8%E8%AA%9E%E9%9B%86/</guid>
-      <description></description>
+      <guid>https://gurabitlog.netlify.app/github/github%E3%81%AE%E7%94%A8%E8%AA%9E%E9%9B%86/</guid>
+      <description>repository ファイルとかの保存場所。 init リポジトリを新規作成すること。 branch リポジトリファイルの分岐。 master branch メインのブランチ。全ての親。 index commitする前の</description>
     </item>
     
   </channel>

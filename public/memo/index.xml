@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memo on gurabit_log</title>
+    <link>https://gurabitlog.netlify.app/memo/</link>
+    <description>Recent content in Memo on gurabit_log</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sun, 13 Jun 2021 21:46:34 +0900</lastBuildDate><atom:link href="https://gurabitlog.netlify.app/memo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>プログラミング用語</title>
+      <link>https://gurabitlog.netlify.app/memo/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E7%94%A8%E8%AA%9E/</link>
+      <pubDate>Sun, 13 Jun 2021 21:48:17 +0900</pubDate>
+      
+      <guid>https://gurabitlog.netlify.app/memo/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E7%94%A8%E8%AA%9E/</guid>
+      <description>「分かりそう」で「分からない」でも「分かった」気になれるIT用語辞典 ステージング環境 実際に使うときの状態（本番環境）に似せて作った、動作確認</description>
+    </item>
+    
+    <item>
+      <title>よく使うmarkdown</title>
+      <link>https://gurabitlog.netlify.app/memo/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86markdown/</link>
+      <pubDate>Sun, 13 Jun 2021 03:14:29 +0900</pubDate>
+      
+      <guid>https://gurabitlog.netlify.app/memo/%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86markdown/</guid>
+      <description>Qiita マークダウン記法 一覧表・チートシート - Qiita</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,6 +2,7 @@
 title: "Githubの用語集"
 date: 2021-06-13T13:34:24+09:00
 draft: false
+TableOfContents: true
 weight: 2
 ---
 #### repository
@@ -58,7 +59,7 @@ Web上とかにあるファイルのこと。githubをさすこともある。
 #### pull
 リモートリポジトリの履歴を取得すること。
 
-# 参考
+## 参考
 [Git 基本の用語集 - Qiita](https://qiita.com/toshi_um/items/72c9d929a600323b2e77)
 
 [【イラストで覚える】初心者のためのGitとGitHub用語集 | ずくろぐ](https://zukulog098r.com/git/)
