@@ -2,6 +2,7 @@
 title: "Hugoでよく使うコマンド"
 date: 2021-06-13T02:30:11+09:00
 draft: false
+TableOfContents: true
 ---
 
 ## 新しいサイトを作る

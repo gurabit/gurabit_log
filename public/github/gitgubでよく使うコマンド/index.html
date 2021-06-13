@@ -18,7 +18,7 @@
 :root {}
 </style>
 <meta property="og:title" content="Gitgubでよく使うコマンド" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="ローカルリポジトリを作成 git init ※ローカルリポジトリはPC上にあるフォルダのこと リモートリポジトリからプロジェクトをコピー cd [ローカルリポジトリ" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://gurabitlog.netlify.app/github/gitgub%E3%81%A7%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/" /><meta property="og:image" content="https://gurabitlog.netlify.app/images/og-image.png"/><meta property="article:section" content="Github" />
 <meta property="article:published_time" content="2021-06-13T03:46:01&#43;09:00" />
@@ -28,11 +28,11 @@
 <meta name="twitter:image" content="https://gurabitlog.netlify.app/images/og-image.png"/>
 
 <meta name="twitter:title" content="Gitgubでよく使うコマンド"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="ローカルリポジトリを作成 git init ※ローカルリポジトリはPC上にあるフォルダのこと リモートリポジトリからプロジェクトをコピー cd [ローカルリポジトリ"/>
 <meta itemprop="name" content="Gitgubでよく使うコマンド">
-<meta itemprop="description" content=""><meta itemprop="datePublished" content="2021-06-13T03:46:01&#43;09:00" />
+<meta itemprop="description" content="ローカルリポジトリを作成 git init ※ローカルリポジトリはPC上にあるフォルダのこと リモートリポジトリからプロジェクトをコピー cd [ローカルリポジトリ"><meta itemprop="datePublished" content="2021-06-13T03:46:01&#43;09:00" />
 <meta itemprop="dateModified" content="2021-06-13T03:46:01&#43;09:00" />
-<meta itemprop="wordCount" content="0"><meta itemprop="image" content="https://gurabitlog.netlify.app/images/og-image.png"/>
+<meta itemprop="wordCount" content="1090"><meta itemprop="image" content="https://gurabitlog.netlify.app/images/og-image.png"/>
 <meta itemprop="keywords" content="" /></head>
 <body><div class="container"><header>
 <h1>gurabit_log</h1>
@@ -48,14 +48,159 @@
 </div>
 <div class="content-container">
 <main><h1>Gitgubでよく使うコマンド</h1>
+<aside class="table_of_contents">
+<h5>Table of Contents</h5><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#ローカルリポジトリを作成">ローカルリポジトリを作成</a></li>
+            <li><a href="#リモートリポジトリからプロジェクトをコピー">リモートリポジトリからプロジェクトをコピー</a></li>
+            <li><a href="#ファイルの追加">ファイルの追加</a>
+              <ul>
+                <li><a href="#git-addの種類">git addの種類</a></li>
+                <li><a href="#addしたファイルを除外">addしたファイルを除外</a></li>
+                <li><a href="#addの取り消し">addの取り消し</a></li>
+              </ul>
+            </li>
+            <li><a href="#ファイルをcommit">ファイルをcommit</a>
+              <ul>
+                <li><a href="#git-commitの種類">git commitの種類</a></li>
+              </ul>
+            </li>
+            <li><a href="#ユーザー登録">ユーザー登録</a></li>
+            <li><a href="#ファイル更新">ファイル更新</a></li>
+            <li><a href="#ブランチ操作">ブランチ操作</a></li>
+            <li><a href="#編集をマージ">編集をマージ</a></li>
+            <li><a href="#差分を確認する">差分を確認する</a></li>
+            <li><a href="#ログの表示">ログの表示</a></li>
+            <li><a href="#ファイルの名前を変更">ファイルの名前を変更</a></li>
+            <li><a href="#ファイルを削除">ファイルを削除</a></li>
+            <li><a href="#圧縮ファイルを作る">圧縮ファイルを作る</a></li>
+            <li><a href="#参考">参考</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav></aside>
+
+<h4 id="ローカルリポジトリを作成">ローカルリポジトリを作成</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git init
+</code></pre></div><p>※ローカルリポジトリはPC上にあるフォルダのこと</p>
+<h4 id="リモートリポジトリからプロジェクトをコピー">リモートリポジトリからプロジェクトをコピー</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">cd <span style="color:#f92672">[</span>ローカルリポジトリのパス<span style="color:#f92672">]</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git clone <span style="color:#f92672">[</span>リモートリポジトリパス<span style="color:#f92672">]</span> <span style="color:#f92672">(</span>例： https://github.com/neme/neme.git<span style="color:#f92672">)</span>
+</code></pre></div><p>※リモートリポジトリはgithub上にあるフォルダのこと</p>
+<p>git submodule add URL</p>
+<h4 id="ファイルの追加">ファイルの追加</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git add 追加したいファイル名
+</code></pre></div><h5 id="git-addの種類">git addの種類</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git add .
+</code></pre></div><p>すべてのファイル・ディレクトリ</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git add *.css
+</code></pre></div><p>すべてのCSSファイル</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git add -n
+</code></pre></div><p>追加されるファイルを調べる</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git add -u
+</code></pre></div><p>変更されたファイルを追加する</p>
+<h5 id="addしたファイルを除外">addしたファイルを除外</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git rm --cached
+</code></pre></div><h5 id="addの取り消し">addの取り消し</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git reset HEAD
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git reset HEAD <span style="color:#f92672">{</span>file_name<span style="color:#f92672">}</span>
+</code></pre></div><h4 id="ファイルをcommit">ファイルをcommit</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git commit -a -m <span style="color:#e6db74">&#34;コメント&#34;</span>
+</code></pre></div><p>※commitは追加or変更したファイルをgitに登録すること</p>
+<h5 id="git-commitの種類">git commitの種類</h5>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git commit -a
+</code></pre></div><p>変更のあったファイルすべて</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git commit --amend
+</code></pre></div><p>直前のコミットを取り消す</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git commit -v
+</code></pre></div><p>変更点を表示してコミット</p>
+<h4 id="ユーザー登録">ユーザー登録</h4>
+<p>ユーザー登録をしないとcommitできないので、ユーザー登録をしよう。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git config --global user.name <span style="color:#e6db74">&#34;ユーザー名&#34;</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git config --global user.email メールアドレス
+</code></pre></div><h4 id="ファイル更新">ファイル更新</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git push origin master
+</code></pre></div><h4 id="ブランチ操作">ブランチ操作</h4>
+<p>※ブランチは分岐したファイルのこと。分岐したブランチは他のブランチの影響を受けない。</p>
+<p>masterブランチが親で、masterブランチからどんどん分岐していく。分岐したブランチを他のブランチとマージすることで1つのブランチにまとめ直せる。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git branch <span style="color:#f92672">[</span>branch_name<span style="color:#f92672">]</span>
+</code></pre></div><p>ブランチを作る</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git checkout <span style="color:#f92672">[</span>branch_name<span style="color:#f92672">]</span>
+</code></pre></div><p>ブランチの移動</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git branch -d <span style="color:#f92672">[</span>branch_name<span style="color:#f92672">]</span>
+</code></pre></div><p>ブランチの削除</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git branch -m <span style="color:#f92672">[</span>branch_name<span style="color:#f92672">]</span>
+</code></pre></div><p>現在のブランチ名の変更</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git branch
+</code></pre></div><p>ローカルブランチの一覧</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git branch -r
+</code></pre></div><p>リモートブランチの一覧</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git branch -a
+</code></pre></div><p>リモートとローカルのブランチ一覧</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git checkout -b branch_name origin/branch_name
+</code></pre></div><p>リモートブランチへチェックアウト</p>
+<h4 id="編集をマージ">編集をマージ</h4>
+<p>master以外のブランチで編集した箇所をmasterに反映</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git checkout <span style="color:#f92672">[</span>branch_name<span style="color:#f92672">]</span>
+</code></pre></div><p>ブランチに移動</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git commit -a -m <span style="color:#e6db74">&#34;コメント&#34;</span>
+</code></pre></div><p>変更ファイルをコミット</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git checkout master
+</code></pre></div><p>masterに移動</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git merge <span style="color:#f92672">[</span>branch_name<span style="color:#f92672">]</span>
+</code></pre></div><p>差分をマージ</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git push origin master
+</code></pre></div><p>ファイルの更新</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git merge --abort
+</code></pre></div><p>マージを取り消す</p>
+<h4 id="差分を確認する">差分を確認する</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git diif
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git diff HEAD^
+</code></pre></div><p>最後のコミットからの差分を表示</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git diff --name-only HEAD^
+</code></pre></div><p>差分ファイルを表示</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git diff file1.txt file2.txt
+</code></pre></div><p>特定フィイルの差分</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git diff commit1 commit2
+</code></pre></div><p>コミットの差分</p>
+<h4 id="ログの表示">ログの表示</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git log
+</code></pre></div><p>コミットのログが見られる</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git reflog origin/branch_name
+</code></pre></div><p>pushのログが見られる</p>
+<h4 id="ファイルの名前を変更">ファイルの名前を変更</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git mv <span style="color:#f92672">[</span>変更前のファイル名<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>変更後のファイル名<span style="color:#f92672">]</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git commit -a -m <span style="color:#e6db74">&#34;rename&#34;</span>
+</code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git push origin master
+</code></pre></div><h4 id="ファイルを削除">ファイルを削除</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git rm <span style="color:#f92672">[</span>name<span style="color:#f92672">]</span>
+</code></pre></div><p>特定のファイルorディレクトリの削除</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git rm *
+</code></pre></div><p>全ファイルorディレクトリ</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git commit -a -m <span style="color:#e6db74">&#34;remove&#34;</span>
+</code></pre></div><p>削除をコミット</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">chgit push origin master
+</code></pre></div><p>削除を反映</p>
+<h4 id="圧縮ファイルを作る">圧縮ファイルを作る</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git archive --format<span style="color:#f92672">=</span>zip HEAD -o ./hoge.zip
+</code></pre></div><p>現在のリポジトリのzipファイルを作る</p>
+<h4 id="参考">参考</h4>
+<p><a href="https://qiita.com/konweb/items/621722f67fdd8f86a017">【Git】基本コマンド - Qiita</a></p>
+<p><a href="https://backlog.com/ja/git-tutorial/stepup/01/">ブランチとは｜サル先生のGit入門【プロジェクト管理ツールBacklog】</a></p>
 <div class="edit-meta">
 Last updated on 13 Jun 2021
 
 
 <br>
 Published on 13 Jun 2021
-<br><a href="https://github.com/gurabit/gurabit_log/edit/master/content/Github%5cGitgub%e3%81%a7%e3%82%88%e3%81%8f%e4%bd%bf%e3%81%86%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89.md" class="edit-page"><i class="fas fa-pen-square"></i>&nbsp;Edit on GitHub</a></div><nav class="pagination"><a class="nav nav-prev" href="https://gurabitlog.netlify.app/github/" title="Github"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - Github</a>
-<a class="nav nav-next" href="https://gurabitlog.netlify.app/houdini/" title="Houdini">Next - Houdini <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+<br></div><nav class="pagination"><a class="nav nav-prev" href="https://gurabitlog.netlify.app/github/" title="Github"><i class="fas fa-arrow-left" aria-hidden="true"></i>&nbsp;Prev - Github</a>
+<a class="nav nav-next" href="https://gurabitlog.netlify.app/github/git%E3%81%AE%E7%94%A8%E8%AA%9E%E9%9B%86/" title="gitの用語集">Next - gitの用語集 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
 </nav><footer><p class="powered">Powered by <a href="https://gohugo.io">Hugo</a>. Theme by <a href="https://themes.gohugo.io/hugo-theme-techdoc/">TechDoc</a>. Designed by <a href="https://github.com/thingsym/hugo-theme-techdoc">Thingsym</a>.</p>
 </footer>
 </main>
@@ -81,6 +226,7 @@ Published on 13 Jun 2021
   
 <ul class="sub-menu">
 <li class="active"><a href="https://gurabitlog.netlify.app/github/gitgub%E3%81%A7%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/">Gitgubでよく使うコマンド</a></li>
+<li class=""><a href="https://gurabitlog.netlify.app/github/git%E3%81%AE%E7%94%A8%E8%AA%9E%E9%9B%86/">gitの用語集</a></li>
 </ul>
   
 </li>
@@ -88,7 +234,14 @@ Published on 13 Jun 2021
 <li class=""><a href="https://gurabitlog.netlify.app/houdini/">Houdini</a>
   
 <ul class="sub-menu">
-<li class=""><a href="https://gurabitlog.netlify.app/houdini/sop/">SOP</a></li>
+
+<li class=""><a href="https://gurabitlog.netlify.app/houdini/sop/">SOP</a>
+  
+<ul class="sub-menu">
+<li class=""><a href="https://gurabitlog.netlify.app/houdini/sop/sop/">良く使うSOP</a></li>
+</ul>
+  
+</li>
 </ul>
   
 </li>

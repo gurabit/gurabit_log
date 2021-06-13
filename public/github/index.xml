@@ -13,6 +13,15 @@
       <pubDate>Sun, 13 Jun 2021 03:46:01 +0900</pubDate>
       
       <guid>https://gurabitlog.netlify.app/github/gitgub%E3%81%A7%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/</guid>
+      <description>ローカルリポジトリを作成 git init ※ローカルリポジトリはPC上にあるフォルダのこと リモートリポジトリからプロジェクトをコピー cd [ローカルリポジトリ</description>
+    </item>
+    
+    <item>
+      <title>gitの用語集</title>
+      <link>https://gurabitlog.netlify.app/github/git%E3%81%AE%E7%94%A8%E8%AA%9E%E9%9B%86/</link>
+      <pubDate>Sun, 13 Jun 2021 13:34:24 +0900</pubDate>
+      
+      <guid>https://gurabitlog.netlify.app/github/git%E3%81%AE%E7%94%A8%E8%AA%9E%E9%9B%86/</guid>
       <description></description>
     </item>
     
