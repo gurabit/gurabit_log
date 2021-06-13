@@ -26,6 +26,12 @@
 		},
 		{
 			"path": "content\\Redshift"
+		},
+		{
+			"path": "content\\VisualStudioCode"
+		},
+		{
+			"path": "content\\Memo"
 		}
 	],
 	"settings": {}
