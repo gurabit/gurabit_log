@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "content"
+		},
+		{
+			"path": "content\\3DCG"
+		},
+		{
+			"path": "content\\AfterEffects"
+		},
+		{
+			"path": "content\\Blender"
+		},
+		{
+			"path": "content\\Github"
+		},
+		{
+			"path": "content\\Houdini"
+		},
+		{
+			"path": "content\\Hugo"
+		},
+		{
+			"path": "content\\photoshop"
+		},
+		{
+			"path": "content\\PremierePro"
+		},
+		{
+			"path": "content\\Redshift"
+		}
+	],
+	"settings": {}
+}
