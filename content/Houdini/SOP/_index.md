@@ -3,6 +3,8 @@ title: "SOP"
 date: 2020-11-29
 draft: false # 非公開ならtrueにする
 ---
-SOPとはSurface Operatorの略。
+SOPとはSurface Operatorの略。ジオメトリノードとも呼ばれている。
 
 Houdiniでおそらく1番最初に触るところ。
+
+モデリングとかに使う。

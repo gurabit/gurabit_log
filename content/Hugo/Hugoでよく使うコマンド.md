@@ -53,5 +53,5 @@ hugo version
 
 
 
-参考
->https://maku77.github.io/hugo/
+#### 参考
+[まくまく Hugo/Go ノート](https://maku77.github.io/hugo/)

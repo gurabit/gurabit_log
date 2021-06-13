@@ -6,7 +6,7 @@
     <description>Recent content on gurabit_log</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sun, 13 Jun 2021 13:34:24 +0900</lastBuildDate><atom:link href="https://gurabitlog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 18:18:39 +0900</lastBuildDate><atom:link href="https://gurabitlog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gitgubでよく使うコマンド</title>
       <link>https://gurabitlog.netlify.app/github/gitgub%E3%81%A7%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/</link>
@@ -32,15 +32,6 @@
       
       <guid>https://gurabitlog.netlify.app/hugo/hugo%E3%81%A7%E3%82%88%E3%81%8F%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89/</guid>
       <description>新しいサイトを作る hugo new site サイトの名前 Huhoのローカルサーバー立ち上げ hugo server -w -D -wはレンダリング -Dは下書きも表示 サーバーを停止 Ctrl+C 新しい記事</description>
-    </item>
-    
-    <item>
-      <title>良く使うSOP</title>
-      <link>https://gurabitlog.netlify.app/houdini/sop/sop/</link>
-      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://gurabitlog.netlify.app/houdini/sop/sop/</guid>
-      <description>Houdini&amp;gt;SOP</description>
     </item>
     
   </channel>
