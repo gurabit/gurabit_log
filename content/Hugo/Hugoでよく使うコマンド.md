@@ -5,35 +5,35 @@ draft: false
 TableOfContents: true
 ---
 
-## 新しいサイトを作る
+#### 新しいサイトを作る
 ```shell
 hugo new site サイトの名前
 ```
 
 
 
-## Huhoのローカルサーバー立ち上げ
+#### Huhoのローカルサーバー立ち上げ
 
 ```shell
 hugo server -w -D
 ```
 -wはレンダリング　-Dは下書きも表示
 
-## サーバーを停止
+#### サーバーを停止
 ```shell
 Ctrl+C
 ```
 
-## 新しい記事を作る
+#### 新しい記事を作る
 ```shell
-hugo new content/記事のジャンル名/記事の名前.md
+hugo new 記事のジャンル名/記事の名前.md
 ```
 
 
 
 公開したい記事のdraftをfalseに書き換える
 
-## publicフォルダを作る
+#### publicフォルダを作る
 
 ```shell
 hugo
@@ -41,9 +41,12 @@ hugo
 
 Hugoコマンドを入力するとpublicフォルダが作られる
 
+#### contentフォルダにないファイルを削除
+```shell
+hugo --cleanDestinationDir
+```
 
-
-## Hugoのバージョンを確認する
+#### Hugoのバージョンを確認する
 
 ```shell
 hugo version

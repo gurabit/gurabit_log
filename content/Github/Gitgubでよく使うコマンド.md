@@ -45,9 +45,9 @@ git add .
 すべてのファイル・ディレクトリ
 
 ```shell
-git add *.css
+git add *.拡張子
 ```
-すべてのCSSファイル
+すべての.拡張子
 
 ```shell
 git add -n
