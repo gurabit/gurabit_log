@@ -1,8 +1,9 @@
 ---
-title: "Object lightの作り方"
+title: "メッシュライトの作り方"
 date: 2021-06-18T14:47:04+09:00
 draft: true
 ---
 
-## HoudiniのRedshiftでobjectのlightを作る方法。
+## HoudiniのRedshiftでメッシュライトを作る方法。
+よくRedshiftでメッシュライトってどうやって作るんだっけ？となるのでメモ。（今までオブジェクトライトという名称だと思ってたけど、メッシュライトという言い方が正しいっぽい）
 
