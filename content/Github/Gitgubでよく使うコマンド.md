@@ -130,7 +130,7 @@ masterブランチが親で、masterブランチからどんどん分岐して�
 git branch [branch_name]
 ```
 
-ブランチを作る
+新しいブランチを作る
 
 ```shell
 git checkout [branch_name]
@@ -148,20 +148,20 @@ git branch -d [branch_name]
 git branch -m [branch_name]
 ```
 
-現在のブランチ名の変更
+現在自分がいるブランチ名の変更
 
 ```shell
 git branch
 ```
-ローカルブランチの一覧
+ローカルブランチの一覧を確認
 ```shell
 git branch -r
 ```
-リモートブランチの一覧
+リモートブランチの一覧を確認
 ```shell
 git branch -a
 ```
-リモートとローカルのブランチ一覧
+リモートとローカルのブランチ一覧を確認
 
 ```shell
 git checkout -b branch_name origin/branch_name
